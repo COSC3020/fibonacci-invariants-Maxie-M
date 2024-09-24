@@ -27,3 +27,13 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+# Invariant Answer, Maxie M
+
+When it comes to a good invariant for recursive implementation of `fib()`, a good invariant would be how at the start of each loop iteration the array (arr) always will contain a valid Fibonacci sequence up until the current index. This ensures correctness in the algorithm. This is by maintaining the structure of the fibonacci sequence up to the $nth$ term. 
+  # Describing Reasoning Behind Conclusion
+The initial values of arr is $[0,1]$, which is the correct base case for $n = 0$   and $n = 1$ 
+Each iteration of the loop will calculate the next Fibonacci number by summing the last two values in arr
+These two previous values that will be summed will have already been computed and would be correct. 
+Pattern will continue until the loop terminates. This mean arr will be holding the complete fibonacci sequence up to the $nth$ term  
+
