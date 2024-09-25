@@ -41,3 +41,12 @@ Describing Reasoning Behind Conclusion
   
 - Pattern will continue until the loop terminates. This mean arr will be holding the complete fibonacci sequence up to the $nth$ term  
 
+## Plagiarism Statement: 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+## Resources:
+
+**note** Used two specific repositories for help
+
+  -  fibonacci-invariants-ClaytonBrown4741
+  -   fibonacci-invariants-Countmooshroom
